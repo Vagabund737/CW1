@@ -1,0 +1,22 @@
+@mixin hdr {
+    width: 1440px;
+    height: 325px;
+    border-radius: 12px;
+    background-image: url(../img/hdr.png);
+}
+
+@mixin fr {
+    width: 580px;
+    height: 48px;
+    border-radius: 10px;
+    background-color: $grr;
+}
+
+@mixin tnr {
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 120%;
+color: $wh;
+text-align: center;
+}
