@@ -11,7 +11,7 @@
 }
 
 .nav1 {
-  width: 1388px;
+  width: 1412px;
   height: 72px;
   display: flex;
   justify-content: space-around;
@@ -19,7 +19,7 @@
   border-radius: 10px;
   margin-top: 1.5%;
   padding: 0.8%;
-  margin-left: 1.6%;
+  margin-left: 1%;
 }
 
 .nav1 > img {
@@ -135,27 +135,28 @@
   border-radius: 50%;
 }
 
-.bl1left {
+.blog1 {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.blog1 .bl1left {
   width: 320px;
   height: 496px;
   border-radius: 10px;
   background-color: white;
   margin-top: 1%;
-  margin-left: 1.5%;
 }
-
-.b1p1 {
+.blog1 .b1p1 {
   padding-top: 3%;
   padding-left: 4%;
 }
-
-.im1 {
+.blog1 .im1 {
   width: 296px;
   height: 176px;
   border-radius: 10px;
 }
-
-.b1p1 p {
+.blog1 .b1p1 p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 800;
@@ -163,18 +164,16 @@
   line-height: 110%;
   color: black;
 }
-
-.b1p2 {
+.blog1 .b1p2 {
   margin-top: 1%;
 }
-
-.bl21 {
+.blog1 .bl21 {
   padding-top: 2%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.bl21 .tag1b1 {
+.blog1 .bl21 .tag1b1 {
   display: flex;
   width: 98px;
   height: 25px;
@@ -188,40 +187,39 @@
   padding-top: 1%;
   padding-left: 3%;
 }
-.bl21 .imb21 {
+.blog1 .bl21 .imb21 {
   width: 72px;
   height: 72px;
   border-radius: 10px;
   display: flex;
   margin-left: 3%;
 }
-.bl21 .p1b1 {
+.blog1 .bl21 .p1b1 {
   margin-top: 1%;
   color: black;
   font-size: 18px;
 }
-.bl21 .b1p21 {
+.blog1 .bl21 .b1p21 {
   padding-right: 3%;
   padding-bottom: 5%;
 }
-.bl21 .t1b21 {
+.blog1 .bl21 .t1b21 {
   padding-right: 7%;
 }
-
-.bl22 {
+.blog1 .bl22 {
   padding-top: 3%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.bl22 .imb22 {
+.blog1 .bl22 .imb22 {
   width: 72px;
   height: 72px;
   border-radius: 10px;
   display: flex;
   margin-left: 3%;
 }
-.bl22 .tag1b2 {
+.blog1 .bl22 .tag1b2 {
   display: flex;
   width: 98px;
   height: 25px;
@@ -235,32 +233,31 @@
   padding-top: 1%;
   padding-left: 3%;
 }
-.bl22 .p1b2 {
+.blog1 .bl22 .p1b2 {
   margin-top: 1%;
   color: black;
   font-size: 18px;
 }
-.bl22 .b1p22 {
+.blog1 .bl22 .b1p22 {
   padding-right: 3%;
 }
-.bl22 .t1b22 {
+.blog1 .bl22 .t1b22 {
   padding-right: 7%;
 }
-
-.bl23 {
+.blog1 .bl23 {
   padding-top: 3%;
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
-.bl23 .imb23 {
+.blog1 .bl23 .imb23 {
   width: 72px;
   height: 72px;
   border-radius: 10px;
   display: flex;
   margin-left: 3%;
 }
-.bl23 .tag1b3 {
+.blog1 .bl23 .tag1b3 {
   display: flex;
   width: 98px;
   height: 25px;
@@ -274,20 +271,94 @@
   padding-top: 1%;
   padding-left: 3%;
 }
-.bl23 .p1b3 {
+.blog1 .bl23 .p1b3 {
   margin-top: 1%;
   color: black;
   font-size: 18px;
 }
-.bl23 .b1p23 {
+.blog1 .bl23 .b1p23 {
   padding-right: 3%;
 }
-.bl23 .t1b23 {
+.blog1 .bl23 .t1b23 {
   padding-right: 7%;
 }
-
-.bl2center {
+.blog1 .bl2center {
   display: flex;
   width: 736px;
-  height: 336px;
+  height: 496px;
+  background-color: white;
+  border-radius: 10px;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  margin-top: 1%;
+}
+.blog1 .bl2center .im2cb {
+  width: 704px;
+  height: 364px;
+  border-radius: 10px;
+  padding-left: 2%;
+}
+.blog1 .bl2center .imb2cb {
+  width: 704px;
+  height: 364px;
+  border-radius: 10px;
+}
+.blog1 .bl2center .tx2cb {
+  align-items: flex-start;
+  text-align: start;
+  padding-left: 2%;
+  padding-top: 2%;
+}
+.blog1 .bl2center .tx2cb p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 110%;
+}
+.blog1 .bl3right {
+  width: 320px;
+  height: 496px;
+  background-color: white;
+  border-radius: 10px;
+  margin-top: 1%;
+}
+.blog1 .nw {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 120%;
+  text-align: start;
+  padding-left: 6%;
+  padding-top: 8%;
+}
+.blog1 .grd {
+  padding-top: 1%;
+}
+.blog1 .ns1 {
+  padding-top: 5%;
+}
+.blog1 .ns1im {
+  width: 284px;
+  height: 1px;
+  padding-left: 6%;
+}
+.blog1 .nslm {
+  width: 284px;
+  height: 1px;
+}
+.blog1 .ns1t {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 120%;
+  text-align: start;
+  padding-top: 8%;
+  padding-left: 6%;
+}
+.blog1 .ns1tp2 {
+  color: black;
 }
