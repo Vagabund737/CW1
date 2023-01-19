@@ -15,7 +15,7 @@
 }
 
 .nav1 {
-    width: 1408px;
+    width: 1388px;
     height: 72px;
     display: flex;
     justify-content: space-around;
@@ -23,7 +23,7 @@
     border-radius: 10px;
     margin-top: 1.5%;
     padding: 0.8%;
-    margin-left: 1.2%;
+    margin-left: 1.6%;
 }
 
 .nav1 > img {
@@ -37,14 +37,12 @@
 .form {
     @include fr;
     border: none;
-
-    
-    
 }
 
 .text {
     @include fr;
     border: none;
+    color: #302C2C;
     font-size: 24px;
 }
 
@@ -58,10 +56,220 @@
     padding-top: 1%;
 }
 
-.v1 {
-    width: 24px;
-    height: 24px;
-    position: absolute;
-    margin-right: 2%;
-    display: flex;
+.text {
+    background-image: url(../img/Vector.png);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-position-x: 97%;
 }
+
+.nav2 {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.b1 {
+    @include b1;
+}
+
+.b2 {
+    @include b2;
+}
+
+.b3 {
+    @include b3;
+}
+
+.stick {
+    background-color: $bl;
+    width: 84px;
+    height: 48px;
+    border-radius: 32px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.ball {
+    background-color: $wh;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.bl1left {
+    width: 320px;
+    height: 496px;
+    border-radius: 10px;
+    background-color: $wh;
+    margin-top: 1%;
+    margin-left: 1.5%;
+}
+
+.b1p1 {
+    padding-top: 3%;
+    padding-left: 4%;
+}
+
+.im1 {
+    width: 296px;
+    height: 176px;
+    border-radius: 10px;
+}
+
+.b1p1 p {
+font-family: 'Inter';
+font-style: normal;
+font-weight: 800;
+font-size: 28px;
+line-height: 110%;
+color: $bl;
+}
+
+.b1p2 {
+    margin-top: 1%;
+}
+
+.bl21 {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .tag1b1 {
+        display: flex;
+        width: 98px;
+        height: 25px;
+        border: 1.5px solid $bl;
+        background-color: $gr;
+        color: $bl;
+        border-radius: 6px;
+        padding-top: 1%;
+        align-items: center;
+        font-size: 14px;
+        padding-top: 1%;
+        padding-left: 3%;
+    }
+    
+    .imb21 {
+        width: 72px;
+        height: 72px;
+        border-radius: 10px;
+        display: flex;
+        margin-left: 3%;
+    }
+    
+    .p1b1 {
+        margin-top: 1%;
+        color: $bl;
+        font-size: 18px;
+    }
+    
+    .b1p21 {
+        padding-right: 3%;
+        padding-bottom: 5%;
+    }
+    
+    .t1b21 {
+        padding-right: 7%;
+    }
+}
+
+.bl22 {
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .imb22 {
+        width: 72px;
+        height: 72px;
+        border-radius: 10px;
+        display: flex;
+        margin-left: 3%;
+    }
+    
+    .tag1b2 {
+        display: flex;
+        width: 98px;
+        height: 25px;
+        border: 1.5px solid $bl;
+        background-color: $gr;
+        color: $bl;
+        border-radius: 6px;
+        padding-top: 1%;
+        align-items: center;
+        font-size: 14px;
+        padding-top: 1%;
+        padding-left: 3%;
+    }
+    
+    .p1b2 {
+        margin-top: 1%;
+        color: $bl;
+        font-size: 18px;
+    }
+    
+    .b1p22 {
+        padding-right: 3%;
+    }
+    
+    .t1b22 {
+        padding-right: 7%;
+    }
+}
+
+.bl23 {
+    padding-top: 3%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .imb23 {
+        width: 72px;
+        height: 72px;
+        border-radius: 10px;
+        display: flex;
+        margin-left: 3%;
+    }
+    
+    .tag1b3 {
+        display: flex;
+        width: 98px;
+        height: 25px;
+        border: 1.5px solid $bl;
+        background-color: $gr;
+        color: $bl;
+        border-radius: 6px;
+        padding-top: 1%;
+        align-items: center;
+        font-size: 14px;
+        padding-top: 1%;
+        padding-left: 3%;
+    }
+    
+    .p1b3 {
+        margin-top: 1%;
+        color: $bl;
+        font-size: 18px;
+    }
+    
+    .b1p23 {
+        padding-right: 3%;
+    }
+    
+    .t1b23 {
+        padding-right: 7%;
+    }
+}
+
+.bl2center {
+    display: flex;
+    width: 736px;
+    height: 336px;
+}
+
+
+
+

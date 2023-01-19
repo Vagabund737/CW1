@@ -9,7 +9,6 @@
     width: 580px;
     height: 48px;
     border-radius: 10px;
-    background-color: $grr;
 }
 
 @mixin tnr {
@@ -19,4 +18,40 @@ font-size: 18px;
 line-height: 120%;
 color: $wh;
 text-align: center;
+}
+
+@mixin b1 {
+    width: 188px;
+    height: 48px;
+    background-color: $wh;
+    color: $grt;
+    border: 2px solid $grt;
+    text-align: center;
+    padding-top: 0.8%;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+@mixin b2 {
+    width: 150px;
+    height: 48px;
+    background-color: $wh;
+    color: $grt;
+    border: 2px solid $grt;
+    text-align: center;
+    padding-top: 0.8%;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+@mixin b3 {
+    width: 118px;
+    height: 48px;
+    background-color: $wh;
+    color: $grt;
+    border: 2px solid $grt;
+    text-align: center;
+    padding-top: 0.8%;
+    font-size: 20px;
+    border-radius: 8px;
 }
