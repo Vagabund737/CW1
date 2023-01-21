@@ -81,6 +81,21 @@
     @include b3;
 }
 
+.b1:hover {
+    background-color: $bl;
+    color: $wh;
+}
+
+.b2:hover {
+    background-color: $bl;
+    color: $wh;
+}
+
+.b3:hover {
+    background-color: $bl;
+    color: $wh;
+}
+
 .stick {
     background-color: $bl;
     width: 84px;
@@ -1513,6 +1528,21 @@ span {
         position: absolute;
         top: 297px;
         left: 92px;
+    }
+}
+
+footer {
+    margin-top: 4%;
+
+    .lgff {
+        width: 1408px;
+        height: 320px;
+        margin-left: 1%;
+    }
+
+    .lgl {
+        width: 1408px;
+        height: 320px;
     }
 }
 

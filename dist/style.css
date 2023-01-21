@@ -118,6 +118,21 @@
   border-radius: 8px;
 }
 
+.b1:hover {
+  background-color: black;
+  color: white;
+}
+
+.b2:hover {
+  background-color: black;
+  color: white;
+}
+
+.b3:hover {
+  background-color: black;
+  color: white;
+}
+
 .stick {
   background-color: black;
   width: 84px;
@@ -1448,4 +1463,17 @@
   position: absolute;
   top: 297px;
   left: 92px;
+}
+
+footer {
+  margin-top: 4%;
+}
+footer .lgff {
+  width: 1408px;
+  height: 320px;
+  margin-left: 1%;
+}
+footer .lgl {
+  width: 1408px;
+  height: 320px;
 }
