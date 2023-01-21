@@ -1546,6 +1546,24 @@ footer {
     }
 }
 
+@media only screen and (max-width: 375px) {
+
+    .container {
+        max-width: 375px;
+        margin: auto;
+        overflow-x: none;
+    }
+
+    header {
+        display: none;
+    }
+
+    .mob1test {
+        
+    }
+
+}
+
 
 
 
