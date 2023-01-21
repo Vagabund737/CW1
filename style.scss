@@ -403,6 +403,135 @@ color: $bl;
     }
 }
 
+.blog3 {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+
+    .b3i1 {
+        @include brt1;
+        display: inline-block;
+    }
+    
+    .b3im {
+        @include brt1;
+    }
+    
+    .b3t1 {
+        background-color: $wh;
+        @include brt1;
+        display: inline-block;
+    }
+    
+    .b3t11 {
+        color: $bl;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 36px;
+        line-height: 120%;
+        padding-left: 3%;
+        padding-top: 3%;
+    }
+    
+    .b3t12 {
+        color: $bl;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+        padding-left: 3%;
+        padding-top: 6%;
+    }
+    
+    .ftt3 {
+        color: $bl;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 140%;
+    }
+    
+    .ftt4 {
+        color: $bl;
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 140%;
+    }
+    
+    .ftb2 {
+        display: flex;
+        width: 38%;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        text-align: start;
+        padding-top: 6%;
+        padding-left: 1%;
+    }
+
+    .b3s1 {
+        display: flex;
+        justify-content: start;
+        align-items: flex-start;
+        order: -5;
+    }
+
+    .b3s2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: -3;
+        padding-top: 2%;
+    }
+
+    .b3s3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: -2;
+        padding-top: 2%;
+    }
+
+    .b3s4 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        order: -2;
+        padding-top: 2%;
+    }
+
+    .b3s5 {
+        width: 460px;
+        height: 920px;
+        border-radius: 10px;
+        order: -4;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .b3im14 {
+        width: 460px;
+        height: 920px;
+        border-radius: 10px;
+    }
+
+    .b1s15 {
+        display: flex;
+        padding-right: 2%;
+    }
+
+    .b1s16 {
+        display: flex;
+    }
+}
+
+
+
 
 
 
