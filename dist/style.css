@@ -70,7 +70,7 @@
 }
 
 .text {
-  background-image: url(../img/Vector.png);
+  background-image: url(../img/lp.png);
   background-repeat: no-repeat;
   background-position-y: center;
   background-position-x: 97%;
@@ -137,8 +137,9 @@
 
 .blog1 {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
   align-items: center;
+  padding-top: 1%;
 }
 .blog1 .bl1left {
   width: 320px;
@@ -148,7 +149,7 @@
   margin-top: 1%;
 }
 .blog1 .b1p1 {
-  padding-top: 3%;
+  padding-top: 2%;
   padding-left: 4%;
 }
 .blog1 .im1 {
@@ -165,7 +166,7 @@
   color: black;
 }
 .blog1 .b1p2 {
-  margin-top: 1%;
+  padding-bottom: 1%;
 }
 .blog1 .bl21 {
   padding-top: 2%;
@@ -308,14 +309,15 @@
   align-items: flex-start;
   text-align: start;
   padding-left: 2%;
-  padding-top: 2%;
+  padding-bottom: 2%;
 }
 .blog1 .bl2center .tx2cb p {
   font-family: "Inter";
   font-style: normal;
   font-weight: 800;
-  font-size: 36px;
+  font-size: 40px;
   line-height: 110%;
+  padding-top: 2%;
 }
 .blog1 .bl3right {
   width: 320px;
@@ -361,4 +363,73 @@
 }
 .blog1 .ns1tp2 {
   color: black;
+}
+
+.blog2 {
+  padding-top: 2%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+.blog2 .b2i1 {
+  width: 460px;
+  height: 360px;
+  border-radius: 10px;
+}
+.blog2 .b2im {
+  width: 460px;
+  height: 360px;
+  border-radius: 10px;
+}
+.blog2 .b2t1 {
+  width: 460px;
+  height: 360px;
+  border-radius: 10px;
+  background-color: black;
+}
+.blog2 .b2t11 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 110%;
+  color: white;
+  padding-top: 3%;
+  padding-left: 3%;
+}
+.blog2 .b2t12 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 120%;
+  color: white;
+  padding-left: 3%;
+  padding-top: 9%;
+}
+.blog2 .ftb2 {
+  display: flex;
+  width: 38%;
+  justify-content: space-evenly;
+  align-items: flex-start;
+  text-align: start;
+  padding-top: 6%;
+  padding-left: 1%;
+}
+.blog2 .ftt1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: white;
+}
+.blog2 .ftt2 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 140%;
+  color: white;
+  padding-left: 2%;
 }

@@ -57,7 +57,7 @@
 }
 
 .text {
-    background-image: url(../img/Vector.png);
+    background-image: url(../img/lp.png);
     background-repeat: no-repeat;
     background-position-y: center;
     background-position-x: 97%;
@@ -99,10 +99,10 @@
 }
 
 .blog1 {
-
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     align-items: center;
+    padding-top: 1%;
 
 .bl1left {
     width: 320px;
@@ -113,7 +113,7 @@
 }
 
 .b1p1 {
-    padding-top: 3%;
+    padding-top: 2%;
     padding-left: 4%;
 }
 
@@ -133,7 +133,7 @@ color: $bl;
 }
 
 .b1p2 {
-    margin-top: 1%;
+    padding-bottom: 1%;
 }
 
 .bl21 {
@@ -143,18 +143,7 @@ color: $bl;
     align-items: center;
 
     .tag1b1 {
-        display: flex;
-        width: 98px;
-        height: 25px;
-        border: 1.5px solid $bl;
-        background-color: $gr;
-        color: $bl;
-        border-radius: 6px;
-        padding-top: 1%;
-        align-items: center;
-        font-size: 14px;
-        padding-top: 1%;
-        padding-left: 3%;
+        @include t1;
     }
     
     .imb21 {
@@ -196,18 +185,7 @@ color: $bl;
     }
     
     .tag1b2 {
-        display: flex;
-        width: 98px;
-        height: 25px;
-        border: 1.5px solid $bl;
-        background-color: $gr;
-        color: $bl;
-        border-radius: 6px;
-        padding-top: 1%;
-        align-items: center;
-        font-size: 14px;
-        padding-top: 1%;
-        padding-left: 3%;
+        @include t1;
     }
     
     .p1b2 {
@@ -240,18 +218,7 @@ color: $bl;
     }
     
     .tag1b3 {
-        display: flex;
-        width: 98px;
-        height: 25px;
-        border: 1.5px solid $bl;
-        background-color: $gr;
-        color: $bl;
-        border-radius: 6px;
-        padding-top: 1%;
-        align-items: center;
-        font-size: 14px;
-        padding-top: 1%;
-        padding-left: 3%;
+        @include t1;
     }
     
     .p1b3 {
@@ -297,15 +264,16 @@ color: $bl;
         align-items: flex-start;
         text-align: start;
         padding-left: 2%;
-        padding-top: 2%;
+        padding-bottom: 2%;
     }
     
     .tx2cb p {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 800;
-        font-size: 36px;
+        font-size: 40px;
         line-height: 110%;
+        padding-top: 2%;
     }
 }
 
@@ -362,6 +330,77 @@ color: $bl;
     color: $bl;
 }
 
+}
+
+.blog2 {
+    padding-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    .b2i1 {
+        @include brt;
+    }
+
+    .b2im {
+        @include brt;
+    }
+
+    .b2t1 {
+        @include brt;
+        background-color: $bl;
+    }
+
+    .b2t11 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 36px;
+        line-height: 110%;
+        color: $wh;
+        padding-top: 3%;
+        padding-left: 3%;
+    }
+
+    .b2t12 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 120%;
+        color: $wh;
+        padding-left: 3%;
+        padding-top: 9%;
+    }
+
+    .ftb2 {
+        display: flex;
+        width: 38%;
+        justify-content: space-evenly;
+        align-items: flex-start;
+        text-align: start;
+        padding-top: 6%;
+        padding-left: 1%;
+    }
+
+    .ftt1 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 140%;
+        color: $wh;
+    }
+
+    .ftt2 {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 12px;
+        line-height: 140%;
+        color: $wh;
+        padding-left: 2%;
+    }
 }
 
 
