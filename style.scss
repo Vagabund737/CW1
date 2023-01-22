@@ -2,17 +2,6 @@
 
 @import "mixins";
 
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
-}
-
-// hidden for desctop //
-
-.mobhead {
-    display: none;
-}
 
 .container {
     width: 1440px;
@@ -20,7 +9,11 @@
     background-color: $grm;
 }
 
-//desctop version //
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
 
 .nav1 {
     width: 1412px;
@@ -33,6 +26,7 @@
     padding: 0.8%;
     margin-left: 1%;
 }
+
 
 .nav1 > img {
     padding-right: 12%;
@@ -886,7 +880,6 @@ span {
 
     .b4s6p1 {
         display: flex;
-
     }
 
     .b4s6p11 {
@@ -1554,43 +1547,100 @@ footer {
     }
 }
 
-//mobile version //
 
-@media only screen and (max-width: 375px) {
+@media screen and (max-width: 768px) {
 
     .container {
-        max-width: 375px;
+        width: 768px;
         margin: auto;
-        overflow-x: none;
         background-color: $grm;
+        overflow-x: none;
     }
 
-    // hidden for mobile version //
+    .hdrn {
+    width: 768px;
+    height: 325px;
+    border-radius: 12px;
+    background-image: url(../img/hdr.png);
+}
 
-    header {
+
+    .form {
+        border: none;
+        width: 268px;
+        height: 48px;
+        border-radius: 10px;
+        margin-left: -7%;
+        padding-top: 1%;
+    }
+
+    .text {
+    border: none;
+    width: 268px;
+    height: 48px;
+    border-radius: 10px;
+    border: none;
+    color: #302C2C;
+    font-size: 18px;
+    margin-left: -7%;
+    padding-top: 1%;
+}
+
+    .hp1 {
         display: none;
     }
 
-    main {
-        display: none;
-    }
+    .nav1 > img {
+    padding-left: -12%;
+}
 
-    footer {
-        display: none;
-    }
-
-    .mobhead {
-
-        
-
-
-
-    }
-
-
-
+    .hp2 {
+        @include tnr;
+        padding-top: 3%;
+        padding-right: 5%;
 
 }
+
+.nav1 {
+    width: 736px;
+    height: 72px;
+    display: flex;
+    justify-content: space-around;
+    background-color: $bl;
+    border-radius: 10px;
+    margin-top: 1.5%;
+    padding: 0.8%;
+    margin-left: 2%;
+}
+
+.stick {
+    display: none;
+}
+
+.nav2 {
+    padding-top: 2%;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.b1 {
+    display: none;
+}
+
+.b2 {
+    display: none;
+    gap: 10px;
+}
+}
+
+
+
+
+
+
+
+
 
 
 
