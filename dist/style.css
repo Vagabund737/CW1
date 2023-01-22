@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+.mobhead {
+  display: none;
+}
+
 .container {
   width: 1440px;
   margin: auto;
@@ -1483,9 +1487,18 @@ footer .lgl {
     max-width: 375px;
     margin: auto;
     overflow-x: none;
+    background-color: #E3E3E3;
   }
 
   header {
+    display: none;
+  }
+
+  main {
+    display: none;
+  }
+
+  footer {
     display: none;
   }
 }

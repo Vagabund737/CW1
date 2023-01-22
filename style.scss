@@ -8,11 +8,19 @@
     margin: 0;
 }
 
+// hidden for desctop //
+
+.mobhead {
+    display: none;
+}
+
 .container {
     width: 1440px;
     margin: auto;
     background-color: $grm;
 }
+
+//desctop version //
 
 .nav1 {
     width: 1412px;
@@ -1546,21 +1554,41 @@ footer {
     }
 }
 
+//mobile version //
+
 @media only screen and (max-width: 375px) {
 
     .container {
         max-width: 375px;
         margin: auto;
         overflow-x: none;
+        background-color: $grm;
     }
+
+    // hidden for mobile version //
 
     header {
         display: none;
     }
 
-    .mob1test {
-        
+    main {
+        display: none;
     }
+
+    footer {
+        display: none;
+    }
+
+    .mobhead {
+
+        
+
+
+
+    }
+
+
+
 
 }
 
