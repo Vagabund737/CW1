@@ -1884,12 +1884,13 @@ footer .lgl {
   }
 
   .bl6p5 {
-    width: 650px;
+    width: 460px;
     display: flex;
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
     flex-direction: column;
+    margin-right: 35%;
   }
 
   .bl6p4p1 {
@@ -1959,5 +1960,20 @@ footer .lgl {
     display: block;
     width: 358px;
     align-items: center;
+  }
+
+  .b1:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .b2:hover {
+    background-color: black;
+    color: white;
+  }
+
+  .b3:hover {
+    background-color: black;
+    color: white;
   }
 }
